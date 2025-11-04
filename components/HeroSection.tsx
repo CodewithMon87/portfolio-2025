@@ -32,7 +32,7 @@ const HeroSection = () => {
                 800,
                 "Hi, I'm Ray!" // type again
               ]}
-              speed={30}
+              speed={60}
               wrapper='span'
               repeat={Infinity}
             />
@@ -42,12 +42,12 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "I'm a Frontend Developer based in Los Angeles, CA. Working towards creating software that makes life easier and more meaningful.",
-                2000, // wait before restarting
+                8000, // wait before restarting
                 '',
-                500 // small pause before typing again
+                800 // small pause before typing again
               ]}
               wrapper='p'
-              speed={50}
+              speed={60}
               repeat={Infinity}
               className='text-lg mt-4 mb-6 md:text-2xl font-normal'
             />
