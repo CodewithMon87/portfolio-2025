@@ -27,7 +27,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "Hi, I'm Ray!", // type this
-                23000, // wait 2 seconds
+                3000, // wait 2 seconds
                 '', // clear text
                 800,
                 "Hi, I'm Ray!" // type again
