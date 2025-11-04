@@ -26,13 +26,13 @@ const HeroSection = () => {
           <h1 className='text-4xl font-bold mt-6 md:mt-0 md:text-7xl'>
             <TypeAnimation
               sequence={[
-                "Hi, I'm Raymond!", // type this
-                2000, // wait 2 seconds
+                "Hi, I'm Ray!", // type this
+                23000, // wait 2 seconds
                 '', // clear text
-                500,
-                "Hi, I'm Raymond!" // type again
+                800,
+                "Hi, I'm Ray!" // type again
               ]}
-              speed={50}
+              speed={30}
               wrapper='span'
               repeat={Infinity}
             />
