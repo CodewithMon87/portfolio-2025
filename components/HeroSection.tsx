@@ -39,7 +39,6 @@ const HeroSection = () => {
           </h1>
 
           <p className='text-lg mt-4 mb-6 md:text-2xl'>
-            I&apos;m a{' '}
             <TypeAnimation
               sequence={[
                 "I'm a Frontend Developer based in Los Angeles, CA. Working towards creating software that makes life easier and more meaningful.",
