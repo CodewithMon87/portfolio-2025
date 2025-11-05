@@ -38,12 +38,17 @@ export default function Navbar () {
       <div className='justify-between md:items-center md:flex'>
         <div>
           <div className='flex items-center justify-between py-3 md:py-5 md:block'>
+            import {Link} from "react-router-dom";
             <Link to='home'>
               <div className='container flex items-center space-x-2'>
                 <img
-                  src='/raylogo.png' // ✅ path from the public folder
+                  src={
+                    currentTheme === 'dark'
+                      ? '/raylogo-white.png'
+                      : '/raylogo-black.png'
+                  }
                   alt='CodewithRay Logo'
-                  className='h-10 w-auto' // adjust the height if needed
+                  className='h-10 w-auto transition-all duration-300'
                 />
               </div>
             </Link>
