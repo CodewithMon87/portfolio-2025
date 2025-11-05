@@ -6,6 +6,13 @@ import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs'
 
 const projects = [
   {
+    name: 'HP Singapore Online Store',
+    description: 'HP Online Store to sell and showcase HP products.',
+    image: '/hp.PNG',
+
+    link: 'https://www.hp.com/sg-en/shop/'
+  },
+  {
     name: 'D1 Skincare Homepage',
     description:
       'D1 Skincare is an ecommerce store for guys skincare products.',
@@ -22,12 +29,11 @@ const projects = [
     link: 'https://www.romabros.com/'
   },
   {
-    name: 'Kator Family Photos',
-    description:
-      'Kator Family Photos is a photos and video digitization service in the LA area.',
-    image: '/familyphotos.png',
+    name: 'Yamato Transport',
+    description: 'Delivery services that suit your everyday needs.',
+    image: '/yamato.png',
 
-    link: 'https://katorfamilyphotos.com/'
+    link: 'https://www.kuronekoyamato.co.jp/ytc/en/'
   }
 ]
 

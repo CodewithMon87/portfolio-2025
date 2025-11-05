@@ -14,6 +14,7 @@ const skills = [
   { skill: 'ReactJs' },
   { skill: 'Next.js' },
   { skill: 'Laravel' },
+  { skill: 'MySQL' },
   { skill: 'Git' },
   { skill: 'GitHub' },
   { skill: 'Wordpress' },
@@ -65,7 +66,7 @@ const AboutSection = () => {
             </p>
           </div>
           <div className='text-center md:w-1/2 md:text-left'>
-            <h1 className='text-2xl font-bold mb-6'>My Skills</h1>
+            <h1 className='text-2xl font-bold mb-6'>My Tech Stack</h1>
             <div className='flex flex-wrap flex-row justify-center z-10 md:justify-start'>
               {skills.map((item, idx) => {
                 return (
