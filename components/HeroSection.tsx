@@ -41,7 +41,7 @@ const HeroSection = () => {
           <p className='text-lg mt-4 mb-6 md:text-2xl'>
             <TypeAnimation
               sequence={[
-                "I'm a Frontend Developer based in Los Angeles, CA. Working towards creating software that makes life easier and more meaningful.",
+                'I’m a Frontend Developer from Metro Manila, Philippines, passionate about turning ideas into engaging digital experiences. I build responsive, user-friendly websites using HTML, CSS, and JavaScript to deliver clean, scalable, and high-performance interfaces.',
                 8000, // wait before restarting
                 '',
                 800 // small pause before typing again
@@ -53,17 +53,14 @@ const HeroSection = () => {
             />
           </p>
 
-          <Link
-            to='projects'
+          <a
+            href='/raymondsabado-cv.pdf' // your PDF file in the public folder
+            target='_blank' // opens in a new tab
+            rel='noopener noreferrer' // security best practice
             className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700'
-            activeClass='active'
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
           >
-            Projects
-          </Link>
+            Download My Resume
+          </a>
         </div>
       </div>
 
